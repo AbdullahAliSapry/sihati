@@ -1,0 +1,15 @@
+.styleFooter {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:400px){
+  .styleFooter{
+      font-size: 16px;
+
+  }
+}

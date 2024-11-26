@@ -1,0 +1,16 @@
+.inputStyle{
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  color: #FFAD33 !important;
+}
+
+.numberOfRater{
+  color:#7d8184;
+}
+
+.parentRating{
+      display: flex;
+    align-items: center;
+    gap: 12px;
+}

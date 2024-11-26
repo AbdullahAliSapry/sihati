@@ -1,0 +1,129 @@
+.parentSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.titleSection {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.titleSection > h5 {
+  max-width: 310px;
+  text-align: start;
+  font-size: 16px;
+}
+
+.sectionData > form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sectionData > form > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.sectionData > form > div > div > input,
+textarea {
+  width: 250px;
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: rgb(190, 235, 217);
+  color: black;
+  position: relative;
+  display: inline-block;
+}
+.messageStyle {
+  width: 100%;
+  position: relative;
+}
+
+.messageStyle > textarea {
+  width: 100%;
+  min-height: 200px;
+}
+
+.messageStyle > textarea::placeholder {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sectionData > form > div > div > input::placeholder {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sectionData > form > div > div {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.ButtonStyle {
+  border: none;
+  outline: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: var(--main-color);
+  width: 150px;
+}
+
+.informationContact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.informationContact > div > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.informationContact > div > div:first-child > span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.informationContact > div > div:first-child > i {
+  display: inline-block;
+  font-size: 20px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.PhoneStyle {
+  transform: rotate(270deg);
+}
+.informationContact > div > div:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.SeprateStyle {
+  border: 1px solid var(--main-color);
+}

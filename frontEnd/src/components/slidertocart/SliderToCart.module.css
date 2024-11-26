@@ -1,0 +1,9 @@
+.swiperProduct .swiper-pagination .swiper-pagination-bullet {
+  width: 30px !important;
+  height: 10px !important;
+  border-radius: 15px !important;
+}
+
+.swiper {
+  padding-bottom: 50px;
+}

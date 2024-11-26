@@ -1,0 +1,136 @@
+.profileSection {
+  border: 2px solid var(--border-color-main);
+  border-radius: 10px;
+  width: 500px;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+.parentSec,
+.About {
+  border: 2px solid var(--border-color-main);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgDiv > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-self: flex-start;
+  padding: 10px;
+
+}
+
+.imgDiv button {
+  border: none;
+  border-radius: 30px;
+  background-color: #b9eee5;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.imgDiv > form{
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.imgDiv > form > label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.detailsDiv,
+.Specialists,
+.Phone,
+.Email,
+.About {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.detailsDiv {
+  flex-direction: row;
+}
+
+.detailsDiv > h3,
+.Specialists > h3,
+.Phone > h3,
+.Email > h3,
+.About > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.detailsDiv > h3 > span,
+.Phone > h3 > span,
+.Email > h3 > span,
+.Specialists > h3 > span,
+.About > h3 > span {
+  display: inline-block;
+  //padding-left: 50px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(101, 101, 101);
+}
+.EditButton {
+  border: none;
+  border-radius: 50px;
+  background-color: #b9eee5;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px 30px;
+}
+.About {
+  gap: 20px;
+  text-align: start;
+}
+
+.About > h3 > p {
+  max-width: 400px;
+  word-wrap: break-word;
+}
+
+.detailsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detailsDiv > a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media (max-width: 540px) {
+  .profileSection {
+    width: 380px;
+  }
+  .imgDiv > img {
+    width: 100px;
+    height: 100px;
+  }
+}

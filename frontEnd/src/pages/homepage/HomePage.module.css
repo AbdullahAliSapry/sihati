@@ -1,0 +1,80 @@
+.styleImg {
+  max-width: 500px;
+}
+
+.parentSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; 
+}
+
+.parentSection > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cairo", sans-serif;
+  gap: 10px;
+}
+.title span {
+  color: var(--main-color);
+}
+
+.title > h2 {
+  font-weight: 700;
+}
+
+.buttonsParent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonsParent > button {
+  border: none;
+  border: 2px solid var(--main-color);
+  border-radius: 20px;
+  padding: 5px 20px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+.buttonsParent > button > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+.buttonsParent > button:hover {
+  background-color: var(--main-color);
+}
+.buttonsParent > button:hover a, button:hover .ButtonStyle {
+  color: white;
+}
+
+@media (max-width: 963px) {
+  .parentSection {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .styleImg {
+    max-width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .styleImg {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 770px) {
+  .parentSection > div:first-child {
+    flex-direction: column;
+  }
+}

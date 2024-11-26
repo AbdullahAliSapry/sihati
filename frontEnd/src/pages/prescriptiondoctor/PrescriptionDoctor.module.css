@@ -1,0 +1,166 @@
+.prescriptionContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  position: relative;
+  background-color: #fff;
+  page-break-inside: avoid;
+
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #121213;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.headerLeft,
+.headerRight {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.headerLeft h1,
+.headerRight h1 {
+  margin: 0;
+  color: #20e057;
+  font-size: 1.2em;
+}
+
+.headerLeft p,
+.headerRight p {
+  margin: 0;
+  color: rgb(61, 61, 65);
+  font-size: 0.9em;
+}
+
+.patientInfo {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid #0d0d0d;
+  padding-bottom: 10px;
+}
+
+.patientInfo div {
+  flex: 1;
+  text-align: center;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+
+.patientInfo label {
+  font-weight: bold;
+}
+
+.patientInfo input,
+.diagnosisInfo textarea,
+.medicationInfo textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #0e0e0e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #b6e1ce;
+  font-size: 15px;
+}
+
+.diagnosisInfo label,
+.medicationInfo label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.diagnosisInfo textarea {
+  height: 150px;
+  background-color: #b6e1ce;
+  font-size: 22px;
+}
+
+.medicationInfo textarea {
+  height: 300px;
+  font-size: 1em;
+  padding: 10px;
+  position: relative;
+  background-color: #b6e1ce;
+  font-size: 22px;
+}
+
+.medicationInfo textarea::before {
+  content: "℞";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2em;
+  color: rgb(2, 2, 2);
+}
+
+.footer {
+  border-top: 2px solid #000000;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contactInfo div {
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo div img {
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .headerLeft h1,
+  .headerRight h1 {
+    font-size: 1em;
+  }
+
+  .headerLeft p,
+  .headerRight p {
+    font-size: 0.8em;
+  }
+
+  .patientInfo div {
+    min-width: 100%;
+  }
+
+  .buttons button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

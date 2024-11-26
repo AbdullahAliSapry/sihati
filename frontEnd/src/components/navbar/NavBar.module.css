@@ -1,0 +1,48 @@
+.searchStyle {
+  position: relative;
+}
+.searchStyle > input[type="search"] {
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid var(--main-color);
+  font-size: 18px;
+}
+
+.searchStyle > i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--gray-color);
+}
+.searchStyle > i.write{
+  display: none;
+}
+.styleImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.doctorImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.doctorName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}

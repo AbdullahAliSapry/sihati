@@ -1,0 +1,77 @@
+.BtnStyle {
+  background-color: #5ca385 !important;
+}
+.BtnStyle > a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btnCheck {
+  font-size: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Btnsuccess {
+  background-color: #3eb143;
+}
+
+.styleMakeFinsh {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+/* .Btnsuccess:hover {
+  background-color: #3eb143;
+} */
+
+.BtneError {
+  background-color: #e53935;
+}
+
+/* .BtneError:hover {
+  background-color: #e53935;
+} */
+
+.buttonDelete {
+  outline: none;
+  border: none;
+  background: red;
+  color: white;
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius:20px ;
+  width: 100px;
+}
+
+
+.StyleLink{
+
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px 10px;
+}

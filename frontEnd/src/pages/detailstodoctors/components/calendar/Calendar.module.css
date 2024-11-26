@@ -1,0 +1,19 @@
+.button1 {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 40px;
+  background-color: var(--main-color);
+  color: white;
+  margin: 20px 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 120px;
+}
+
+.parentToApp{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 40px;
+}

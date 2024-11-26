@@ -1,0 +1,44 @@
+.BtnStyle {
+  background-color: #5ca385 !important;
+}
+.BtnStyle > a {
+  text-decoration: none;
+  color: white ;
+}
+
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btnCheck {
+  font-size: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   color: white;
+}
+
+.Btnsuccess {
+  background-color: #3eb143;
+ 
+}
+
+/* .Btnsuccess:hover {
+  background-color: #3eb143;
+} */
+
+.BtneError {
+  background-color: #e53935;
+
+}
+
+/* .BtneError:hover {
+  background-color: #e53935;
+} */

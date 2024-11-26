@@ -1,0 +1,196 @@
+.parentSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parentConData > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.conImg > img {
+  max-width: 600px;
+}
+
+.styleTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+.smTitle {
+  color: var(--gray-color);
+  font-size: 19px;
+}
+.iconsStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.iconsStyle > div {
+  border: 2px solid var(--border-color-main);
+  padding: 3px 10px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.iconsStyle > div > svg {
+  font-size: 25px;
+}
+
+.parentToInputs > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.seprateStyle {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.seprateStyle > span {
+  font-size: 18px;
+  color: black;
+}
+.seprateStyle > span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -14px;
+  width: 49%;
+  height: 2px;
+  background-color: var(--border-color-main);
+}
+.seprateStyle > span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -14px;
+  width: 49%;
+  height: 2px;
+  background-color: var(--border-color-main);
+}
+
+.formStyle {
+  width: 100%;
+}
+.formStyle > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.formStyle > form > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.formStyle > form > div > div > div > label {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+.formStyle > form > div > div > div > input,
+.formStyle > form > div > div > div > select {
+  width: 300px;
+  padding: 5px 10px;
+  border: 2px solid var(--border-color-main);
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  color: var(--gray-color);
+}
+
+.formStyle > form > div > div > div > select {
+  cursor: pointer;
+}
+
+.optionStyle {
+  padding: 10px 5px !important;
+  cursor: pointer;
+}
+.buttonParent > a {
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.buttonParent > button {
+  padding: 7px 10px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 18px;
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  width: 300px;
+}
+
+.footerRegister {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerRegister > a {
+  text-decoration: none;
+}
+
+.parentToInputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputImageStyle > input {
+  display: none;
+}
+.inputImageStyle {
+  border: 2px solid var(--border-color-main);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.inputImageStyle > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputImageStyle > div>span{
+  font-weight: 500;
+
+}
+.inputImageStyle > div > label {
+  background-color: var(--main-color);
+  border-radius: 5px;
+  color: white !important;
+  width: fit-content;
+  padding: 5px 10px;
+}
+@media (max-width: 860px) {
+  .parentSec {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .conImg > img {
+    max-width: 300px;
+  }
+}
