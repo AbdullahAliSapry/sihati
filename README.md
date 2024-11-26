@@ -1,4 +1,4 @@
-# صحتي (My Health)  
+# صحتي(sihati)  
 
 A modern healthcare management system that simplifies the interaction between doctors and patients. The platform provides tools for booking appointments, managing medical records, and sending digital prescriptions, while offering an admin panel for oversight and management.  
 
